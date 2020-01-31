@@ -47,12 +47,21 @@ img {
 .welcome {
   position: absolute;
   color: black;
-  margin-top: -30%;
-  margin-left: 450px;
-  font-size: 70px;
+  margin-top: -25%;
+  margin-left: 100px;
+  font-size: 50px;
   text-shadow: 5px 3px 3px black;
+  padding: 10px;
+  border-radius: 15px;
+}
 
-  background-color: rgb(255, 255, 255, 0.2);
+.welcome1 {
+  position: absolute;
+  color: #ecb82d;
+  margin-top: -20%;
+  margin-left: 130px;
+  font-size: 50px;
+  text-shadow: 5px 3px 3px black;
   padding: 10px;
   border-radius: 15px;
 }
@@ -64,12 +73,24 @@ img {
   text-shadow: 5px 3px 3px black;
   font-size: 50px;
 }
+
+.team {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
 .services {
   background-color: #ecb82d;
   padding: 15px;
   border-radius: 20px;
   text-shadow: 5px 3px 3px black;
   font-size: 50px;
+}
+
+.serv {
+  height: 200px;
+  margin-top: 10px;
 }
 
 .con {
@@ -91,6 +112,10 @@ img {
 #gmap {
   height: 425px;
   width: 570px;
+}
+
+.connected {
+  text-shadow: 5px 3px 3px black;
 }
 
 .foot {
